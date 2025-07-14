@@ -1,0 +1,23 @@
+{
+  "hammadnode": {
+    "image": "OCR/whitelisted/hammadnode.jpg",
+    "cameras": [
+      "1"
+    ],
+    "status": "whitelisted"
+  },
+  "fahad": {
+    "image": "OCR/whitelisted/fahad.jpg",
+    "cameras": [
+      "2"
+    ],
+    "status": "whitelisted"
+  },
+  "hammad": {
+    "image": "OCR/whitelisted/hammad.jpg",
+    "cameras": [
+      "2"
+    ],
+    "status": "whitelisted"
+  }
+}
