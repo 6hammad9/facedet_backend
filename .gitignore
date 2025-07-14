@@ -1,1 +1,2 @@
-OCR/models/
+OCR/models/yolov5m_dynamic.onnx
+OCR/models/glintr100.onnx
