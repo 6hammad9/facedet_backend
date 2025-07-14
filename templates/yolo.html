@@ -1,0 +1,24 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>YOLO Object Detection</title>
+        <script>
+            function changeCamera() {
+                const cameraIndex = document.getElementById("cameraSelect").value;
+                const videoFeed = document.getElementById("videoFeed");
+                videoFeed.src = `/video_feed/${cameraIndex}`;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>YOLO Object Detection</h1>
+        <label for="cameraSelect">Select Camera:</label>
+        <select id="cameraSelect" onchange="changeCamera()">
+            <option value="0">Rear Camera</option>
+            <option value="1">Front Camera</option>
+        </select>
+        <br><br>
+        <img id="videoFeed" src="{{ url_for('video_feed', camid=0) }}" width="75%">
+    </body>
+</html>
